@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #dfdce3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color:#01abaa;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.divfot{
+    max-width: 300px;
+    display: flex;
+
+    img{
+        width: 100px;
+    }
+
+}
+
+.divfot__nome{
+    max-width: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    h4{
+        margin: 0%;
+        margin-left: 5px;
+    }
+    
+    p{
+        margin: 0%;
+        font-size: 80%;
+        margin-left: 5px;
+    }
+}
+
+.caixas{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    color: beige;
+    text-align: center;
+    margin: 0;
+    
+}
+
+section{
+    width: 300px;
+    margin-top:20px;
+}
+
+.info{
+    color: beige;
+    background-color: #414141;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.info__titulo, .info__nome, .info__idade, .info__estado, .info__naci{
+    margin: 0%;
+    margin-top: 5px;
+}
+
+.form{
+    color: beige;
+    background-color:#414141 ;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+
+    h3{
+        margin:0%;
+        margin-top: 5px;
+    }
+
+    p{
+        margin:0%;
+        margin-top: 5px;
+
+    }
+}
+
+
+.quali{
+    color: beige;
+    text-align: center;
+    background-color: #414141;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+
+    h3{
+        margin:0%;
+        margin-top: 5px;
+    }
+
+    p{
+        margin:0%;
+        margin-top: 5px;
+    }
+}
+
+
+footer{
+    color: beige;
+    background-color: #01abaa;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 1500px;
+    
+
+    h3{
+        margin:0%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        margin:0%;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
+
+.contat{
+    display: flex;
+    justify-content: center;
+}
